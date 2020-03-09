@@ -15,7 +15,7 @@
 		</br> </br>
 		<div align="center">
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usuario: <input type="text"
-				name="usuario" /></br> </br> Contraseña: <input type="text" name="password" /></br>
+				name="usuario" required/></br> </br> Contraseña: <input type="text" name="password" required/></br>
 			</br> <input type="submit" value="Iniciar" class="btn btn-outline-success" /></br>
 			<input name="action" value="loginValidate"
 				style="visibility: hidden; display: none;">
@@ -26,7 +26,7 @@
 
 		<c:forEach items="${listaUsr}" var="info">
 			<tr>
-				<td>${info.usuario }</td>
+				<td>${info.correo }</td>
 			</tr>
 		</c:forEach>
 	</table>

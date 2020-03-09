@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
-<title>Mantenimiento</title>
+<title>BebidasSin</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -55,7 +55,7 @@
 							<td><input type="text" readonly="readonly" name="peso" value="${info.peso}"/></td>
 							<td><input type="text" readonly="readonly" name="stock" value="${info.stock}"/></td>
 							<td><input type="text" readonly="readonly" name="categoria" value="${info.categoria}"/></td>
-							<td><input type="number" name="unidades" min=1 max="${info.stock}"></td>
+							<td><input type="number" name="unidades" required min=1 max="${info.stock}"></td>
 							<td><button class="btn btn-success" type="submit" name="comprar">Comprar</button></td>
 						</tr>
 					</form>

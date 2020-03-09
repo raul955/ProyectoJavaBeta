@@ -30,5 +30,6 @@ public interface BBDDDAO {
 
 	public List<Productos> mostrarTodo2() throws ClassNotFoundException, SQLException;
 	
+	
 
 }

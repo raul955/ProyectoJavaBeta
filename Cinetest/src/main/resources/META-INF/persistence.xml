@@ -18,6 +18,7 @@
 		<class>model.ProdCarrito</class>
 		<class>model.Productos</class>
 		<class>model.Restaurantes</class>
+		<class>model.Email</class>
 
 		<properties>
 
